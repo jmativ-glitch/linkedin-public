@@ -1,0 +1,26 @@
+{
+	"appId": "com.hrlinkedin.pro",
+	"appName": "HR LinkedIn Pro",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https",
+		"cleartext": false
+	},
+	"android": {
+		"minSdkVersion": 22,
+		"targetSdkVersion": 34,
+		"backgroundColor": "#050c18"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"backgroundColor": "#050c18",
+			"showSpinner": true,
+			"spinnerColor": "#0a7bc4"
+		},
+		"StatusBar": {
+			"style": "Dark",
+			"backgroundColor": "#050c18"
+		}
+	}
+}

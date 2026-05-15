@@ -1,0 +1,21 @@
+{
+  "name": "LinkedIn HR Pro",
+  "short_name": "HR Pro",
+  "description": "Generador de contenido LinkedIn para RRHH con IA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050c18",
+  "theme_color": "#0a7bc4",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon.svg",     "sizes": "any",      "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Crear Post", "url": "/?tab=generate", "description": "Generar nuevo post con IA" }
+  ]
+}
